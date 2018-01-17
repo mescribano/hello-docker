@@ -3,7 +3,7 @@
 #
 
 # Pull base image
-FROM scratch
+FROM ubuntu:16.04
 
 # extra metadata
 LABEL version="1.0"
