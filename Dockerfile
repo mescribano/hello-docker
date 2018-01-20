@@ -17,11 +17,6 @@ RUN apt-get update
 RUN apt-get install -qy git
 RUN apt-get install -qy wget
 
-# Add files.
-ADD root/.bashrc /root/.bashrc
-ADD root/.gitconfig /root/.gitconfig
-ADD root/.scripts /root/.scripts
-
 # Set environment variables.
 ENV HOME /root
 
